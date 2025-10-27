@@ -183,3 +183,4 @@ if __name__ == '__main__':
     code = open(sys.argv[1]).read()
     out = convert_c_to_python(code)
     print(out)
+
